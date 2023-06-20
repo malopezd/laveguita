@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaVeguita.API", "LaVeguita.API\LaVeguita.API.csproj", "{00829F5E-BA43-408B-802D-20601B32197E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00829F5E-BA43-408B-802D-20601B32197E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00829F5E-BA43-408B-802D-20601B32197E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00829F5E-BA43-408B-802D-20601B32197E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00829F5E-BA43-408B-802D-20601B32197E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D204905D-B278-4081-ABD4-2102BDF1CAD9}
+	EndGlobalSection
+EndGlobal

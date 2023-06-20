@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>fd206cb0-e155-44c0-b319-409ece637fc3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\" />
+    <None Remove="Models\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Implementation\" />
+    <None Remove="Services\Repositorio\" />
+    <None Remove="Services\Servicios\" />
+    <None Remove="Configs\" />
+    <None Remove="DbContext\" />
+    <None Remove="RepositorioDB\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Implementation\" />
+    <Folder Include="Services\Repositorio\" />
+    <Folder Include="Services\Servicios\" />
+    <Folder Include="Configs\" />
+    <Folder Include="DbContextos\" />
+    <Folder Include="RepositorioDB\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.18">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.7">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
+  </ItemGroup>
+</Project>
